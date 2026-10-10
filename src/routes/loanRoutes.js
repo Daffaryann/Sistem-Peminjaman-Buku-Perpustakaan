@@ -9,6 +9,7 @@ import {
 
 const router = express.Router();
 
+
 router.get("/", getAllLoans);
 router.get("/:id", getLoanById);
 router.post("/", createLoan);
